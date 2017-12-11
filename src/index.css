@@ -1,0 +1,26 @@
+body, #root, .app {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.city-item {
+  cursor: pointer;
+  padding: 5px;
+}
+
+.city-item.selected {
+  border: 1px solid black;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  display: inline-block;
+}
+.loading {
+  padding: 5px;
+}
